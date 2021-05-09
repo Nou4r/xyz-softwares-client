@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="common.h" />
+    <ClInclude Include="hwid.h" />
+    <ClInclude Include="menus.h" />
+    <ClInclude Include="client-server\client.h">
+      <Filter>client-server</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt\xor.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt\md5.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="inject\mmi.h">
+      <Filter>inject</Filter>
+    </ClInclude>
+    <ClInclude Include="other\bytetofile.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\protection.h">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes\font.h">
+      <Filter>bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes\logo.hpp">
+      <Filter>bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_win32.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_internal.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_rectpack.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_textedit.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_truetype.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imconfig.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_dx11.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes\prv_spoofer.hpp">
+      <Filter>bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes\prv_script.hpp">
+      <Filter>bytes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hwid.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="menus.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="client-server\client.cpp">
+      <Filter>client-server</Filter>
+    </ClCompile>
+    <ClCompile Include="encrypt\md5.cpp">
+      <Filter>encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="inject\mmi.cpp">
+      <Filter>inject</Filter>
+    </ClCompile>
+    <ClCompile Include="other\bytetofile.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="protect\protection.cpp">
+      <Filter>protect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_win32.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_widgets.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_demo.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_draw.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_dx11.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="inject\CreateRemoteThread.cpp">
+      <Filter>inject</Filter>
+    </ClCompile>
+    <ClCompile Include="inject\require.cpp">
+      <Filter>inject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="client-server">
+      <UniqueIdentifier>{5428bd32-d767-441d-b037-a3a474d44219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encrypt">
+      <UniqueIdentifier>{18b8ef9f-1ded-4096-be36-6dcb723b1bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inject">
+      <UniqueIdentifier>{fb2a3da8-78b5-4277-a61b-35659ad50648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{d1372167-7b49-4482-ad29-2413bf0b0c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protect">
+      <UniqueIdentifier>{315feed6-647a-4749-a5b7-c5c794a8f145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bytes">
+      <UniqueIdentifier>{7263f35a-3635-4ecf-b970-74bf153942a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{0f810daf-265e-40e4-8085-736354fd2f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\imgui">
+      <UniqueIdentifier>{6eb7ba10-8bb7-4015-a9e4-b5a923cde5bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
